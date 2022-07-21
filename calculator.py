@@ -1,8 +1,6 @@
 #Simple Calculator using python functions
 
 
-from secrets import choice
-
 
 def add(x,y):
     return x+y
@@ -16,10 +14,10 @@ def multiply(x,y):
 def divide(x,y):
     return x/y
 
-no1 = eval(input("Enter the first number: "))
-no2 = eval(input("Enter the second number: "))
+no1 = int(input("Enter the first number: "))
+no2 = int(input("Enter the second number: "))
 
-print(no1, no2)
+
 
 print(""" 
 
@@ -49,3 +47,13 @@ while(True):
             exit()
     else:
         print("Invalid Input! Try again!")
+
+
+
+
+
+
+
+
+
+
